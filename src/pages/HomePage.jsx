@@ -29,7 +29,7 @@ const HomePage = ({ darkMode }) =>{
                 <h2 className="animate-pulse"><img src="./relanpago.png" width={200} height={50}/></h2>
               </div>
             <div className={`principal flex justify-center items-center flex-col md:w-3/5 mx-8 border-2 ${darkMode ? 'border-green-500' : 'border-green-500'} rounded-lg p-8 ${darkMode ? 'shadow-2xl shadow-green-500' : 'shadow-2xl shadow-green-500'} hover:${darkMode ? 'shadow-gray-200' : 'shadow-green-200'} my-8 mt-8`}>
-              Hola, soy Edwin Fajardo cursando la carrera de Full Stack Developer en Academlo. Programador Javascript, PHP y Python.
+              Hola, soy Edwin Fajardo estoy cursando la carrera de Full Stack Developer en Academlo. Programador en Javascript, PHP, Python.
             </div>
             <div>
             <h2 className="animate-pulse"><img src="./relanpago.png" width={200} height={50}/></h2>
