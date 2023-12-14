@@ -71,6 +71,13 @@ const ProjectPage = ({ darkMode }) => {
                     <li className="py-8"><Link to="https://aplicacion-clima-ten.vercel.app/">Este proyecto fue realizado en React y css, Es el primer proyecto realizado con React, se hace uso de la libreria axios para peticiones http y obtener los datos del clima.</Link></li>
                     <li><ComponentCarrusel imagen1="./weather1.png" imagen2="./weather2.png" imagen3="./weather3.png" /></li>
                 </ul>
+
+
+                <ul className="flex justify-center items-center flex-col md:w-1/4 mx-8 border-2 border-green-500 rounded-lg p-8 shadow-2xl shadow-green-500  hover:shadow-green-200 my-8 mt-8">
+                    <li className="my-2"><span className="text-2xl font-bold">Doodle Dash</span></li>
+                    <li className="py-8"><Link to="https://github.com/3p1c0s3nd/doodle_dash">Este es un juego programado en flutter y dart. Para ampliar mis conocimientos en el uso de este lenguaje de programacion. Gracias a los cursos que se encuentran en codelabs de google.</Link></li>
+                    <li><ComponentCarrusel imagen1="./doodledash1.png" imagen2="./doodledash2.png" imagen3="./doodledash3.png" /></li>
+                </ul>
                
             </div>
             
