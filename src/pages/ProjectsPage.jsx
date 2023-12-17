@@ -84,6 +84,13 @@ const ProjectPage = ({ darkMode }) => {
                     <li className="py-8"><Link to="https://test-gemini-google.vercel.app/pages/chat">Este proyecto creamos una api con nextjs y hacemos uso de ella. La api se conecta a gemini para hacer una pregunta y nos devuelve una respuesta la IA.</Link></li>
                     <li><ComponentCarrusel imagen1="./gemini1.png" imagen2="./gemini2.png" imagen3="./gemini3.png" /></li>
                 </ul>
+
+
+                <ul className="flex justify-center items-center flex-col md:w-1/4 mx-8 border-2 border-green-500 rounded-lg p-8 shadow-2xl shadow-green-500  hover:shadow-green-200 my-8 mt-8">
+                    <li className="my-2"><span className="text-2xl font-bold">Chat Con Inteligencia Artificial</span></li>
+                    <li className="py-8"><Link to="https://github.com/3p1c0s3nd/flutter_gemini_chat">Este proyecto hace uso de flutter y dart. Nos conectamos a una api desarrollada en nextjs para hacer preguntas con la IA de google Gemini.</Link></li>
+                    <li><ComponentCarrusel imagen1="./chatgemini1.png" imagen2="./chatgemini2.png" imagen3="./chatgemini1.png" /></li>
+                </ul>
                
             </div>
             
